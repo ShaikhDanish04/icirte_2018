@@ -1,0 +1,62 @@
+.se-pre-con {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #ffffff;
+	
+	/* background: url(../images/college_logo.png) center no-repeat; */
+}
+.se-pre-con-container {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.se-pre-con-container h3 {
+	margin-top: 50px;
+}
+
+.se-pre-con img.pre_logo {	
+	animation: logo-glow 5s linear infinite;
+	border-radius: 50%;
+}
+
+@keyframes logo-glow {
+	0% {
+		opacity: 1;
+		transform: scale(1.0);
+	}
+	50% {
+		opacity: .5;
+		transform: scale(0.95);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1.0);
+	}
+}
+
+.se-pre-con img.pre_loader {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(-50px,-50px);
+    height: 350px;
+	width: 350px;
+	z-index: -1;
+}
+
+.confirm-on {
+	position: absolute;
+    display: none;
+    top: -30px;
+    left: -35px;
+}
+.added {
+	display: none;
+}

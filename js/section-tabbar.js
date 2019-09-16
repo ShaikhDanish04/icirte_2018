@@ -1,0 +1,54 @@
+$(".track1-name").click(function(){
+    $(".track1-view").addClass("track-show");
+    $(".track2-view").removeClass("track-show");
+    $(".track3-view").removeClass("track-show");
+    $(".track4-view").removeClass("track-show");
+    $(".track5-view").removeClass("track-show");
+    $(".track6-view").removeClass("track-show");
+    $(".theme-banner").fadeOut(200);
+});
+$(".track2-name").click(function(){
+    $(".track2-view").addClass("track-show");
+    $(".track1-view").removeClass("track-show");
+    $(".track3-view").removeClass("track-show");
+    $(".track4-view").removeClass("track-show");
+    $(".track5-view").removeClass("track-show");
+    $(".track6-view").removeClass("track-show");
+    $(".theme-banner").fadeOut(200);
+});
+$(".track3-name").click(function(){
+    $(".track3-view").addClass("track-show");
+    $(".track2-view").removeClass("track-show");
+    $(".track1-view").removeClass("track-show");
+    $(".track4-view").removeClass("track-show");
+    $(".track5-view").removeClass("track-show");
+    $(".track6-view").removeClass("track-show");
+    $(".theme-banner").fadeOut(200);
+});
+$(".track4-name").click(function(){
+    $(".track4-view").addClass("track-show");
+    $(".track2-view").removeClass("track-show");
+    $(".track3-view").removeClass("track-show");
+    $(".track1-view").removeClass("track-show");
+    $(".track5-view").removeClass("track-show");
+    $(".track6-view").removeClass("track-show");
+    $(".theme-banner").fadeOut(200);
+});
+$(".track5-name").click(function(){
+    $(".track5-view").addClass("track-show");
+    $(".track2-view").removeClass("track-show");
+    $(".track3-view").removeClass("track-show");
+    $(".track4-view").removeClass("track-show");
+    $(".track1-view").removeClass("track-show");
+    $(".track6-view").removeClass("track-show");
+    $(".theme-banner").fadeOut(200);
+});
+$(".track6-name").click(function(){
+    $(".track6-view").addClass("track-show");
+    $(".track2-view").removeClass("track-show");
+    $(".track3-view").removeClass("track-show");
+    $(".track4-view").removeClass("track-show");
+    $(".track5-view").removeClass("track-show");
+    $(".track1-view").removeClass("track-show");
+    $(".theme-banner").fadeOut(200);
+});

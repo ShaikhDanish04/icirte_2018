@@ -1,0 +1,13 @@
+.banner-header {
+    text-align: center;
+    padding: 20px;
+}
+.banner-header h1,h2,h3,h4,h5 {
+    margin: 0px;
+}
+.banner-header h1 {
+    font-size: 4.8em;
+}
+.banner-header h3 {
+    font-size: 1.4em;
+}

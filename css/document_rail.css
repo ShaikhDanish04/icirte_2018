@@ -1,0 +1,86 @@
+.wrapp-me {
+    position: fixed;
+    top: 60px;
+    z-index: 16;
+    color: white;
+    background: #212020;
+    padding: 14px;
+    width: 100%;
+    transition: top 0.3s;
+    border-bottom: 5px solid #dddddd;
+    box-shadow: 0px 0px 15px #000 inset;
+}
+.imp-text {
+    width: 115px;
+    background: #201f1f;
+    float: left;
+    /* display: unset; */
+    z-index: 1;
+    margin-left: -20px;
+}
+.my-marquee {
+    height: 20px;	
+    width: 1800px;
+    position: relative;
+   }
+
+.my-marquee p a {
+    color: #00ff74;
+    font-weight: 600;
+}
+.my-marquee p a:hover {
+    color: #fff;
+    text-shadow: 0px 0px 10px #00ff74;
+}
+.my-marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* line-height: 50px; */
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(-100%);
+    -webkit-transform:translateX(-100%);	
+    transform:translateX(-100%);
+    /* Apply animation to this element */	
+    -moz-animation: my-marquee-slide 10s linear infinite;
+    -webkit-animation: my-marquee-slide 10s linear infinite;
+    animation: my-marquee-slide linear infinite;
+    animation-duration: 30s;
+}
+/* Move it (define the animation) */
+@-moz-keyframes my-marquee-slide {
+    0%   { -moz-transform: translateX(90%); }
+    100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes my-marquee-slide {
+    0%   { -webkit-transform: translateX(90%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes my-marquee-slide {
+    0%   { 
+        -moz-transform: translateX(90%); /* Firefox bug fix */
+        -webkit-transform: translateX(90%); /* Firefox bug fix */
+        transform: translateX(90%); 		
+    }
+    100% { 
+        -moz-transform: translateX(-100%); /* Firefox bug fix */
+        -webkit-transform: translateX(-100%); /* Firefox bug fix */
+        transform: translateX(-100%); 
+    }
+}
+.my-marquee p:hover {
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@media screen and (max-width: 426px) {
+    .imp-text {
+        display: none;
+    }
+    .my-marquee p {
+        animation-duration: 40s;
+    }
+}

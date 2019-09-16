@@ -1,0 +1,773 @@
+section {
+    /* width: 100%; */
+}
+.center {
+    text-align: center;
+}
+.mrg-tp-15 {
+    margin-top: 15px;
+}
+
+/* .mrg-tp-15:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+} */
+.main-heads {
+    margin-top: 26px;  
+    margin-bottom: 25px; 
+}
+.main-heads-title {
+    text-transform: uppercase;
+    text-shadow: 0px 0px 15px black;
+    color: white;
+}
+.main-heads p,.co-conveners p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.main-heads span.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    background: white;
+    margin: auto;
+    float: left;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 15px white;
+    transform: translateY(10px);
+}
+.main-heads span.img:hover {
+    box-shadow: 0px 0px 5px black;
+}
+.main-heads .col-md-4 {
+    display: block !important;
+}
+.co-conveners {
+    padding: 30px;
+    background: rgba(0,0,0,.5);
+    color: white;
+    box-shadow: 0px 0px 35px black;
+    display: block !important;
+}
+.Committee-bar {
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0px 0px 15px inset;
+    /* color: white; */
+    padding: 15px;
+}
+.Committee-bar-content {
+    padding: 15px;
+}
+.Committee-bar-content a{
+    color: black;
+    padding: 10px;
+    background: #e1e1e1;
+    border-radius: 15px;
+    margin: 2px;
+    border: 1px solid #b8b8b8;
+    box-shadow: 0px 0px 5px #c9c2c2;
+}
+.Committee-bar-content a:hover {
+    color: #000;
+    box-shadow: 0px 0px 10px #c9c2c2;
+}
+.Committee-bar-content h3 {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 300px;
+    color: #0d9451;
+    font-weight: 400;
+    
+}
+.section-header {
+    background: #4d4d4d;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    border-top: 15px solid #333333;
+    box-shadow: 0px 0px 15px #333333;
+}
+.about-us-container {
+    display: block !important;
+    
+}
+.section-container {
+    overflow: hidden;
+}
+.section-container .about-us {
+    background: #53e9b8;
+    padding: 40px 0px;
+    /* color: white; */
+    border-top: 5px solid #4e5a1b;
+    padding-bottom: 0px;
+}
+.section-container .about-us h1 {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.card-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    border-bottom: 15px solid #333333;
+    text-align: center;
+}
+.card-holder {
+    box-shadow: 0px 0px 15px #333333;
+    background: #12bd3d;
+    width:200px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 25px 5px;
+    display: inline-block;
+    /* float: left; */
+    margin: 5px;
+}
+.card-holder:hover {
+    background: #0f9931;
+}
+.card-holder .text-holder {
+    height: 100px;
+    white-space: initial;
+}
+.card-holder .text-holder h3 {
+    margin: auto 0px;
+    color: #ffffff;
+    font-size: medium;
+}
+.card-holder .image-holder span {
+    height: 125px;
+    width: 125px;
+    margin: 10px auto;
+    display: block;
+}
+.ieee-logo {
+    background-image: url(../images/ieee.png);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.iste-logo {
+    background-image: url(../images/iste.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.csi-logo {
+    background-image: url(../images/csi-logo.png);
+    background-position: center;
+    background-size: contain;
+}
+.iete-logo {
+    background-image: url(../images/iete.png);
+    background-position: 50% 35%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.mt-logo {
+    background-image: url(../images/mata.gif);
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.lokm-logo {
+    background-image: url(../images/lokmat.png);
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.ibm-logo {
+    background-image: url(../images/ibnlokmat.jpg);
+    background-position: center;
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.award-logo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url(../images/award.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.award-name {
+    width: 90%;
+    margin-left: 45px;
+    text-align: justify;
+}
+.card-holder .link-holder {
+    margin-top: 20px;
+}
+.card-holder .link-holder a {
+    background: #4d4d4d;
+    color:white;
+    padding : 5px 15px;
+    border-radius: 15px;
+   
+}
+
+.block2 {
+    background-color: #bd1812;
+    height: 50vh;
+    padding: 50px;
+}
+
+.block3 {
+    background-color: #303030;
+    /* height: 50vh; */
+    padding: 20px;
+    color:white;
+}
+
+
+.intro-back {
+    background: #eaeaea;
+}
+
+.intro {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color: #fafafa;
+    width: 80%;
+    /* z-index: 9999; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding: 20px 20px;
+    margin: auto;
+    margin-top: -110px; 
+}
+.intro .logo {
+    display: inline-block;
+    float: left;
+    padding: 20px 20px;
+}
+
+.intro .logo img {
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    /* background-color: #e7e7e7; */
+}
+
+.intro .title {
+    text-transform: uppercase;
+    display: inline-block;
+    width:80%;
+    float: left;
+    margin: 20px;
+}
+.intro .title h2 {
+    line-height: 1.5;
+    margin: 10px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.intro .presents {
+    display: inline-block;
+    /* padding: 20px 160px; */
+    
+}
+.intro .presents h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: crimson;
+    text-align: center;
+}
+.intro .presents h1 {
+    margin-top: 30px;
+    font-size: 75px;
+}
+
+.intro .presents p {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.intro .presents img {
+    height: 100px;
+    padding: 20px;
+}
+
+.intro .presents ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.intro .presents ul li{
+    display: block !important;
+}
+
+.greetings {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    color: #000000;
+    display: block !important;
+}
+.greetings p {
+    display: block !important;
+}
+
+.theme-tabbar {
+    background: #f1f1f1;;
+}
+.theme-header {
+    padding: 20px;
+    background-color: #e0201a;
+    color:white;
+}
+.theme-header p{ 
+    display: block !important;
+}
+  
+/* Style the tab */
+.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    border-bottom: none;
+    background-color: #f1f1f1;
+    width: 30%;
+    /* height: 300px; */
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    /* height: 300px; */
+    display: none;
+    color: #ffffff;
+    background: #4d4d4d;
+    height: 100%;
+}
+
+.tabcontent-display {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    /* height: 300px; */
+    display: none;
+    color: #ffffff;
+    background: #4d4d4d;
+    height: 100%;
+}
+.tabcontent li {
+    margin: 20px;
+}
+.tablinks {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+}
+.tablinks:hover {
+    box-shadow: 0px 0px 15px inset;
+    background: #e0e0e0;
+}
+.tablinks p{
+    font-weight: 600;
+    display: inline;
+}
+.info-tab {
+    padding : 10px;
+    background: #e4e4e4;
+    box-shadow: 0px 0px 15px; 
+    display: block !important;
+}
+
+.theme-container .theme-tabbar-hover-group {
+     height: 520px;
+     overflow: hidden;
+}
+
+.theme-tabbar-hover-group .track-name {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    background: #ddd;
+    height: 100%;
+}
+.theme-tabbar-hover-group .display-view {
+    background: #303030;
+    color: white;
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+
+.theme-tabbar-hover-group .track-display {
+    /* display: none; */
+    background: red;
+    height: 0%;
+    width:100%;
+    position: relative;
+    transition: .5s;
+}
+.theme-tabbar-hover-group .track-show {
+    height: 100%;
+}
+.track-display .theme-content {
+    padding: 10px 12px;
+    color: #ffffff;
+    background: #303030;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.track-display li {
+    margin: 20px;
+}
+.display-view .theme-banner {
+    height: 100%;
+    text-align: center;
+    /* margin-top: 50%; */
+    transform: translateY(50%)
+}
+.display-view .theme-banner a {
+    color:white;
+}
+/* Clear floats after the tab */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.fees-block {
+    color:#fafafa;
+    background: #a5a5a5;
+    overflow: -webkit-paged-x;
+    border-bottom: 5px solid #333333;
+    
+}
+.fee-header {
+    padding: 20px;
+    background: #0d0b0b;
+    text-align: center;
+}
+
+.fee-header h1 {
+    display: block !important;
+}
+.fee-header p {
+    display: block !important;
+}
+
+.fee-container {
+    padding: 20px;
+    width: 600px;
+    overflow-wrap: break-word;
+    background: #c5c3c3;
+    display: inline-block;
+    float: left;
+    box-shadow: 2px 0px 23px #333;
+    
+}
+
+.fee-container h4 {
+    padding: 20px;
+    background: #942ab5;
+    width: 400px;
+    border-radius: 50px;
+    margin-right: -75px;
+    display: inline-block;
+    box-shadow: 0px 0px 20px #000 ;
+}
+.fee-container b {
+    padding: 22px;
+    background: #6a1d82;
+    width: 160px;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    transition: .5s;
+    box-shadow: 0px 0px 20px #000 ;
+    color: #e2e2e2;
+}
+.fee-container li:hover b {
+    width: 120px;
+    background: #5b0575;
+    color: #ffffff;
+}
+
+.payment-method {
+    padding : 20px;
+    display: inline-block;
+    /* float: right; */
+
+}
+
+.payment-method .pay-table td {
+    padding: 10px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+
+.payment-method .pay-table td.main-td {
+    font-weight: 600;
+}
+.register-btn {
+    padding: 11px 4px;
+    background: #6a1d82;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    transition: .5s;
+    box-shadow: 0px 0px 10px #000;
+    color: #e2e2e2;
+    margin-top: 5px;
+}
+.register-btn:hover {
+    background: #471357;
+    box-shadow: 0px 0px 10px #000;
+    color:white;
+}
+.imp-dates-container {
+    width: 100%;
+    float: left;
+    /* padding: 10px; */
+    background: rebeccapurple;
+    box-shadow: 0px 0px 15px rebeccapurple;
+}
+
+.imp-dates-container .col-md-3 {
+    padding: 25px;
+    text-align: center;
+    text-shadow: 0px 0px 15px;
+}
+.imp-dates-container .imp-date-alt {
+    background: rebeccapurple;
+}
+.payment-details-container {
+    width: 580px;
+}
+.fee-process {
+    background-color: #272525;
+    border-bottom: 10px solid #0d0b0b;
+    box-shadow: 0px 0px 15px black;
+}
+.fee-process-title {
+    padding: 90px 45px;
+    background: #6a1d82;
+    box-shadow: 0px 0px 15px #000000;
+}
+.fee-process-title h1 {
+    font-size: 42px;
+}
+.fee-process-steps {
+    padding: 30px;
+    text-align: left;
+}
+.fee-process-steps ul li ul.lower-list li {
+    list-style: lower-alpha;
+    margin-left: 50px;
+    font-size: 14px;
+}
+.fee-process .fee-process-steps ul li {
+    list-style: decimal;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.fee-process .fee-process-steps ul li:before {
+    content: "";
+  }
+
+
+/* screen less then 1200px */
+@media screen and (max-width: 1255px) {
+    .intro .logo {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .intro .title {
+        margin-left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    
+    .fee-container {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .fees-block {
+        text-align: center;
+    }
+    
+    .fee-container h4 {
+        text-align: left;
+    }
+    .payment-details-container {
+        width:unset;
+    }
+    .fee-process-title {
+        padding: 70px 45px;
+    }
+    .intro .title {
+        margin-left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+    }
+    .intro .title h2 {
+        font-size: 24px;
+    }   
+    .fee-process {
+        padding: 0px;
+    } 
+    .Committee-bar-content h3 {
+        display: block;
+        padding: 12px;
+        width: unset;
+        text-align: center;
+    }
+    .Committee-bar-content {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    .Committee-bar-content a {
+        display: block;
+        margin: 15px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 426px) {
+    .intro {
+        width: unset;
+        margin-top: 0px;
+        border-radius: 0px;
+        box-shadow: unset;
+    }
+    
+    .intro .logo {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding: 0px;
+    }
+    .intro .title {
+        width: unset;
+    }
+    .greetings {
+        width: unset;
+        text-align: justify;
+        padding: 20px;
+    }
+    .tab {
+        float: none;
+        width: unset;
+    }
+    .theme-tabbar-hover-group .display-view {
+        width: unset;
+        height: 400px;
+    }
+    .theme-container .theme-tabbar-hover-group {
+        height: unset;
+    }
+    .fee-container {
+        margin-left: 0px;
+        transform: translateX(0px);
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .fee-container b {
+        width: unset;
+        padding: 14px;
+        margin-right: 0px;
+    }
+    .fee-container h4 {
+        padding: 15px;
+        font-size: 11px;
+        width: 250px;
+        margin-left: -5px;
+    }
+    .fee-process-title {
+         text-align: center;
+         padding: 20px;
+    }
+    .fee-process-title h1{
+        font-size: 24px;
+    }
+    .fee-process-steps {
+        padding: 0px;
+        text-align: left;
+    }
+    .fee-process-steps ul li h3 {
+        font-size: 14px;
+        line-height: 2;
+    }
+    .fee-process-steps ul li ul.lower-list li {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    .fee-process .fee-process-steps ul li {
+        margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    }
+}

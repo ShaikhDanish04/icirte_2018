@@ -1,0 +1,258 @@
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0px";
+    document.getElementById("doc-container").style.top = "60px";
+    } else {
+    document.getElementById("navbar").style.top = "-65px";
+    document.getElementById("doc-container").style.top = "0px";
+    }
+    prevScrollpos = currentScrollPos;
+}
+</script>
+
+<div id="navbar" class="navigation-bar">
+    <div class="right">
+        <a id="menu-toggler" style="font-size:15px;" class="icon">&#9776;</a>
+        <button id="trigger-form" >Register</button>
+    </div>
+    <div class="left">
+        <ul>
+            <li class="home">
+                <a class="home" href="#home">HOME</a>
+            </li>
+            
+            <li>
+                <a href="#about-us">About Us</a>
+            </li>
+            
+            <li class="dropdown">
+                <a href="#block2">Conference Theme</a>
+                <div class="dropdown-content dropdown-theme">
+                    <a class="track1-name" href="#block2">Computer Engineering and Information Technology</a>
+                    <a class="track2-name" href="#block2">Electronics and Telecommunication Engineering</a>
+                    <a class="track3-name" href="#block2">Mathematics and Humanities Science</a>
+                    <a class="track4-name" href="#block2">Civil and Environmental Engineering</a>
+                    <a class="track5-name" href="#block2">Electrical Engineering</a>
+                    <a class="track6-name" href="#block2">Mechanical Engineering</a>
+                </div>
+            </li>
+            <li>
+                <a href="#block3">Registration</a>
+            </li>
+            <li class="dropdown">
+                <a href="#committee-bar">Commmittee</a>
+                
+                <div class="dropdown-content dropdown-committee">
+                    <div id="org-committee" class="committee-dpdn">Organizing Committee</div>
+                        <a class="org-committee-dpdn-head" href="#committee-list-cpat-com-head">Chief Patrons</a>
+                        <a class="org-committee-dpdn-head" href="#committee-list-pat-com-head">Patron</a>
+                        <a class="org-committee-dpdn-head" href="#committee-list-con-com-head">Convener</a>
+                        <a class="org-committee-dpdn-head" href="#committee-list-co-con-com-head">Co-Convener</a>
+                        <a class="org-committee-dpdn-head" href="#committee-list-executive-com-head"> Executive Committe</a>
+                        <a class="org-committee-dpdn-head" href="#committee-list-co-cord-com-head">Coordinators</a>
+
+                    <div id="adv-committee" class="committee-dpdn">Advisory Committee</div>
+                        <a class="adv-committee-dpdn-head" href="#committee-list-advi-board-com-head">Advisory Board</a>
+                        <a class="adv-committee-dpdn-head" href="#committee-list-tec-com-head">Technical Committee</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#imp-dates">Important Dates</a>
+                <div class="dropdown-content dropdown-impdates">
+                    <div class="impdates-container">
+                        <p>Full Length Paper Submission</p>
+                        <strong>30-11-2018</strong>
+                    </div>
+                    <div class="impdates-container">
+                        <p>Acceptance & Notification</p>
+                        <strong>3-12-2018</strong>
+                    </div>
+                    <div class="impdates-container">
+                        <p>Registration & Camera Ready Copy Submission</p>
+                        <strong>11-12-2018</strong>
+                    </div>
+                    <div class="impdates-container">
+                        <p>Conference Dates</p>
+                        <strong>21 Dec & 22 Dec 2018</strong>
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#block5">Contact Us</a>
+                <div class="dropdown-content contact-dropdown">
+                    <h6><b>1800 2745999</b></h6>
+                    <p>Contact Number</p>
+                    <h5><b>Prof. Asha Rawat</b></h5>
+                     <p>(Dean, External Affairs)</p>
+                     <p><b>9004675627</b></p> 
+                </div>
+            </li>
+        </ul>
+        <div class="nav-overlay show-nav"></div>
+    </div>
+
+
+    
+    <div class="form-block">
+        <div class="form_container">
+            <h1>Registration<button class="form-close">X</button></h1>
+            <h2 class="download-label">downloads</h2>
+            <div class="reg_steps">
+                <div class="reg_steps_links">
+                    
+                    <p>
+                        <span class="document-logo"></span>
+                        <a href="https://drive.google.com/file/d/0BydxEv8siBquMHZEc295eEt4Q3VxQmRwM3Q1aTBwNG1Ba1Fj/view?usp=sharing" target="_blank">
+                            Guidelines
+                        </a>
+                    </p>
+                    <p>
+                        <span class="document-logo"></span>
+                        <a href="https://drive.google.com/file/d/0BydxEv8siBqubEFLRS1iV0taN2thOTEyODNwenRyV1hqN1dn/view?usp=sharing" target="_blank">
+                            Paper Format
+                        </a>
+                    </p>
+                </div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdQ9QazMHEGjjMSY6pdm4gc7fP7Ru5CXaZuY3qZAqK29aLKoA/viewform?embedded=true"  height="2429" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+        </div> 
+    </div>
+    <div class="committee-list-holder">
+        <div id="org-committee-list" class="committee-list">
+            <div id="committee-list-cpat-com-head" class="committee-list-title">
+                <h1>CHIEF PATRONS</h1>
+            </div>
+            <ul>
+                <li><b>Smt. Ashalata Manohar Phalke</b><p>President</p></li>
+                <li><b>Sr.Adv.Shri. Appasaheb Desai</b><p>General Secretary</p></li>
+                <li><b>Adv.Shri. Pralhad. G. Desai</b><p>Executive Trustee Member</p></li>
+            </ul>
+            <div id="committee-list-pat-com-head" class="committee-list-title">
+                <h1>PATRONS</h1>
+            </div>
+            <ul>
+                <li><b>Dr. Alam N. Shaikh</b><p>Principal , PVPPCOE</p></li>
+            </ul>
+            <div id="committee-list-con-com-head" class="committee-list-title">
+                <h1>CONVENOR</h1>
+            </div>
+            <ul>
+                <li><b>Prof. Vijay Salke</b><p>(Vice Principal, PVPPCOE)</p></li>
+                <li><b>Prof. Nilesh Nagrale</b><p>Dean, Student Affairs</p></li>
+            </ul>
+            <div id="committee-list-co-con-com-head" class="committee-list-title">
+                <h1>CO-CONVENORS</h1>
+            </div>
+            <ul>
+                <li><b>Dr. Mahavir A. Devmane </b><p> HOD Computer Dept. </p></li>
+                <li><b>Prof. Nilima Zade </b><p> HOD Electronics Dept. </p></li>
+                <li><b>Dr. Seema Ladhe </b><p> HOD IT Dept. </p></li>
+                <li><b>Prof. Vibhavari Kulkarni </b><p> HOD Humanities and Basic Science</p></li>
+                <li><b>Prof. Prachi Godbole </b><p> HOD, EXTC </p></li>
+                <li><b>Prof. Rajesh Morey  </b><p> Dean, Admin </p></li>
+                <li><b>Prof. Sai Lakshmi </b><p> Dean, Academics </p></li>
+                <li><b>Prof. Asha Rawat </b><p> Dean, External Affairs </p></li>
+                <li><b>Prof. Pramod Bhavarthe </b><p> Dean, R&D </p></li>
+                <li><b>Mr. Shailesh Mokashi </b><p> Registrar </p></li>
+                <li><b>Mr. Varun Desai </b><p> Administrative Officer </p></li>
+            </ul>
+            <div id="committee-list-executive-com-head" class="committee-list-title">
+                <h1>EXECUTIVE COMMITTEE</h1>
+            </div>
+            <ul>
+                <li><b></b><p></p></li>
+                <li><b>Dr. Prashant Sonare </b></li>
+                <li><b>Prof. Rajesh Khotre</b></li>
+                <li><b>Prof. S. N. Deshpande </b></li>
+                <li><b>Prof. Suvarna Bhise</b></li>
+                <li><b>Prof. Manjiri Pathak </b></li>
+                <li><b>Prof. Sachin Barahate</b></li>
+                <li><b>Prof. Swapnil Desai </b></li>
+                <li><b>Prof. Gitanjali Korgaonkar</b></li>
+                <li><b>Prof. Abhijeet Desai </b></li>
+                <li><b>Prof. A. Y. Shete</b></li>
+                <li><b>Dr. Namdev More </b></li>
+            </ul>
+            <div id="committee-list-co-cord-com-head" class="committee-list-title">
+                <h1>CO-ORDINATORS</h1>
+            </div>
+            <ul>
+                <li><b>Prof. Atul Shintre </b></li>
+                <li><b>Prof. Shrikant Sanas</b></li>
+                <li><b>Prof. Kavita Wagh </b></li>
+                <li><b>Prof. Vidhya Seeman</b></li>
+                <li><b>Prof. Kushal Ghadge </b></li>
+            </ul>
+
+
+
+
+
+
+            
+        </div>
+        <div id="adv-committee-list" class="committee-list">
+            <div id="committee-list-advi-board-com-head" class="committee-list-title">
+                <h1>Advisory Board</h1>
+            </div>
+            <ul>
+                <li><b>Dr. H. V. Kumaraswamy</b><p> Bengaluru</p></li>
+                <li><b>Dr. G. Sadashivappa</b><p> RVCOE, Bengaluru</p></li>
+                <li><b>Dr. Rajesh Jalnekar</b><p> Director, VIT, Pune</p></li>
+                <li><b>Dr. Amit Dutta, WRO</b><p> AICTE</p></li>
+                <li><b>Dr. G. T. Thampi</b><p> Principal, TSEC, Mumbai</p></li>
+                <li><b>Dr. M. K. Deshmukh</b><p> Prof. BITS,Goa</p></li>
+                <li><b>Dr. Abhay Wagh</b><p> Director, DTE Mumbai</p></li>
+                <li><b>Dr. Dimitra Atri</b><p>(Blue Marble Space Institute of Science, USA</p></li>
+                <li><b>Dr. Dileep Malkhede</b><p>(RIFD Bureau , AICTE)</p></li>
+                <li><b>Dr. S. K. Ukrande</b><p>(Principal, KJSIEIT & Dean Technology )</p></li>
+                <li><b>Mr. Anthony Lobo</b><p>(Section Chair, IEEE Mumbai)</p></li>
+                <li><b>Dr. Dimitra Atri</b><p>(Blue Marble Space Institute of Science, USA)</p></li>
+                <li><b>Dr. Shazi Shah Jabeen</b><p>(Professor, BITS, Dubai)</p></li>
+                <li><b>Dr. Imtiaz Ahmed Choudhury</b><p>(University of Malaya)</p></li>
+                <li><b>Dr. P. H. Sawant</b><p>(Principal , SPCE Mumbai)</p></li>
+                <li><b>Dr. G. T. Thampi</b><p>(Principal, TSEC)</p></li>
+                <li><b>Dr. Sanjay P. Patil</b><p>(Principal, KEC, Shelve-Pandharpur)</p></li>
+                <li><b>Dr. J. W. Bakal</b><p>(Principal, SSJCE)</p></li>
+                <li><b>Dr. Santosh Narayankhedkar</b><p>(Principal, MGMCET)</p></li>
+                <li><b>Dr. Surendra S. Rathod</b><p>(Dean, SPIT)</p></li>
+                <li><b>Dr. Sandeep Joshi</b><p> (Principal, PCOE, New Panvel)</p></li>
+                <li><b>Dr. Sameer Nanivadekar</b><p> (Dean, A.P. Shah Insti. Of Tech., Thane)</p></li>
+                <li><b>Dr. Anwar Shaikh</b><p>(Vice Principal, PCASC, Pune)</p></li>
+                <li><b>Dr. S.M. Khot</b><p>(Principal ,FCRIT, Vashi)</p></li>
+                <li><b>Dr. Sanjay B. Patil</b><p>(Principal, RDTC, Pune)</p></li>
+                <li><b>Mr. Santosh Pal</b><p>( President, MITM )</p></li>
+                <li><b>Dr. S. D. Sawarkar</b><p>(Principal, DMCE, Airoli)</p></li>
+                <li><b>Cdr. Satish Chandra</b><p>(Commander)</p></li>
+            </ul>
+            <div id="committee-list-tec-com-head" class="committee-list-title">
+                <h1>Technical Committee </h1>
+            </div>
+            <ul>
+                <li><b>Dr. C.M. Mahajan </b><p> (HOD, VIT)</p></li>
+                <li><b>Mr. Abhay Phansikar </b><p> (Section Vice Chair, IEEE Mumbai)</p></li>
+                <li><b>Dr. Vinit Kotak </b><p> (Secretary, IEEE Mumbai)</p></li>
+                <li><b>Dr. Faruk Kazi </b><p> (VJTI)</p></li>
+                <li><b>Dr. Uttam D. Kolekar </b><p> (Principal, A.P.Shah COE)</p></li>
+                <li><b>Prof. Suryanarayana Doolla </b><p> (Section Jt. Secretary ,IEEE Mumbai)</p></li>
+                <li><b>Prof. Juzer Vasi </b><p> IEEE Mumbai</p></li>
+                <li><b>Dr. Satyanarayan Bheesette </b><p> (Technical & Professional Activities</p></li>
+                <li><b>Chair & Member  </b><p> IEEE Mumbai)</p></li>
+                <li><b>Dr. Kiran Talele </b><p>  SPIT (Student Activity Chair, IEEE Mumbai )</p></li>
+                <li><b>Dr. Shahsikant Ghumbre </b><p> (HOD, GCOE Avasari Khurd )</p></li>
+                <li><b>Dr. Hariram Chavan </b><p> (HOD, FCRITE, Navi Mumbai)</p></li>
+                <li><b>Dr. D.R. Kalbande </b><p> (Dean, SPIT)</p></li>
+                <li><b>Dr. S. K. Shinde </b><p> (Vice Principal, LTCE, Navi Mumbai)</p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+        
+
+
+
+
